@@ -1,12 +1,2 @@
-# Uncomment one of these lines to avoid writing --target= every time.
-[build]
-#target = "i686-unknown-linux-gnu"
-#target = "i686-pc-windows-msvc"
-#target = "i686-pc-windows-gnu"
-
 [target."i686-pc-windows-msvc"]
 rustflags = ["-C", "target-feature=+crt-static"]
-
-# You may need to uncomment this line on Fedora or other Linux distributions if you get SQLite build errors.
-[env]
-# CC = "cc"
