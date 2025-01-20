@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-arrayvec = { version = "0.7.4", features = ["serde"] }
 bxt-vct = { path = "../bxt-vct" }
+
+arrayvec = { version = "0.7.4", features = ["serde"] }
 glam = { version = "0.24.1", features = ["serde"] }
 hltas = { version = "0.9.0" }
 serde = { version = "1.0.174", features = ["derive"] }
