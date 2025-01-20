@@ -7,7 +7,7 @@ updates:
   - package-ecosystem: "cargo"
     directory: "/bxt-ipc-types"
     schedule:
-      interval: "daily
+      interval: "daily"
   - package-ecosystem: "cargo"
     directory: "/bxt-macros"
     schedule:
@@ -15,7 +15,7 @@ updates:
   - package-ecosystem: "cargo"
     directory: "/bxt-patterns"
     schedule:
-      interval: "daily
+      interval: "daily"
   - package-ecosystem: "cargo"
     directory: "/bxt-strafe"
     schedule:
